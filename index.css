@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+.preview_box{
+  border: 4px solid #bcbcbc; 
+  text-align: center; 
+  margin-top: 2%;
+  height: 550px;
+  margin-bottom: 12%
+}
+
+#preview{
+  padding-top: 20px;
+}
+
+.btn-file{
+  margin-right: 10px;
+}
+
+.btn-myclose{
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 4px solid #bcbcbc; 
+}
