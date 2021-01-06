@@ -19,7 +19,7 @@ function previewImage(f){
 
 		// 파일 읽기가 완료되었을때 실행
 		reader.onload = function(rst){
-			document.getElementById('preview').innerHTML = '<img src="' + rst.target.result + '" >';
+			document.getElementById('preview').innerHTML = '<img class="preview_img "src="' + rst.target.result + '">';
 		}
 
 		// 파일을 읽는다
