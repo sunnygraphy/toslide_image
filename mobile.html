@@ -14,20 +14,27 @@
   
  <body>
     <div class="container-md"> 
+        <div class="d-flex justify-content-between top">
+            <button type="button" class="btn btn-myclose">
+            <img src="close.png" width="20px">
+            </button>
+            <button type="button" class="btn">
+                <img src="send.png" width="25px">
+                Send</button>
+        </div>
+        
         <div class="preview_box">
             <div id="preview">Upload Image</div>
         </div>
         <div class="d-flex justify-content-center">
-          <button type="button" class="btn btn-myclose">
-              <img src="close.png" width="20px">
-          </button>
             <label class="btn btn-file">
-              <img src="file_image.png" width="25px">
-                Selelct Image File <input type="file" name="files1" accept="image/*" onchange="previewImage(this)" style="display: none;"/>
+                <img src="file_image.png" width="25px">
+                    Select Image File <input type="file" name="files1" accept="image/*" capture="camera" onchange="previewImage(this)" style="display: none;"/>
             </label>
-          <button type="button" class="btn">
-            <img src="send.png" width="25px">
-                Send</button>
+            <label class="btn btn-file">
+                <img src="camera.png" width="25px">
+                    Take Image <input type="file" name="files1" accept="image/*" capture="camera" onchange="previewImage(this)" style="display: none;"/>
+            </label>
         </div>
         
     </div>
