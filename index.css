@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
     font-size: 13px;
+    color: #666464;
   }
 .preview_box{
-  border-radius: 20px;
+  /* border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
-  text-align: center; 
+  text-align: center;*/
   margin-top: 3%;
   height: 500px;
   margin-bottom: 12%;
@@ -17,18 +18,39 @@
   padding-top: 20px;
 }
 
-.btn-file{
-  margin-right: 10px;
+.my-close{
+  border-radius: 40%;
+  padding: 7px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3); 
+  border: none;
+  background-color: white;
+  margin-right: 5px;
 }
 
-.btn-myclose{
-  margin-right: 10px;
-  border-radius: 50%;
-  border: 4px solid #bcbcbc; 
+.my-close-mobile{
+  border: none;
+  background-color: white;
+}
+
+.my-file{
+  margin-right: 5px;
+}
+
+.my-btn{
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3); 
+  border: none;
+  background-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* margin-right: 10px;
+  border: 4px solid #bcbcbc;  */
 }
 
 .btn{
-  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
+   box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3); 
 }
 
 .btn:hover{
