@@ -2,14 +2,15 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size: 13px;
   }
 .preview_box{
-  border-radius: 22px;
+  border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
   text-align: center; 
   margin-top: 3%;
   height: 500px;
-  margin-bottom: 30px;
+  margin-bottom: 12%;
 }
 
 #preview{
