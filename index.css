@@ -7,8 +7,8 @@
   }
 .preview_box{
   /* border-radius: 20px;
-  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);
-  text-align: center;*/
+  box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.3);*/
+  text-align: center;
   margin-top: 3%;
   height: 500px;
   margin-bottom: 12%;
@@ -60,7 +60,7 @@
 
 .preview_img{
   max-width: 90%;
-  height: auto;
+  max-height: 500px;
 }
 
 .top{
@@ -79,6 +79,7 @@
     max-width: auto;
     height: 480px;
   }
+
  }
 
  
