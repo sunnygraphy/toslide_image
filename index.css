@@ -8,9 +8,7 @@
 
 .preview_box{
   text-align: center;
-  margin-top: 3%;
   height: 500px;
-  margin-bottom: 12%;
 }
 
 #preview{
@@ -57,7 +55,7 @@
 
 .preview_img{
   align-items: center;
-  max-width: 90%;
+  max-width: 80%;
   max-height: 500px;
 }
 
