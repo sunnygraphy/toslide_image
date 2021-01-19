@@ -24,7 +24,7 @@
 }
 
 .text-form{
-  height: 50vh;
+  height: 45vh;
   border: 2px solid #b4b4b4;
   border-radius: 10px;
 }
@@ -44,6 +44,10 @@
 .btn-send:hover{
   background-color:#bcbcbc;
 }
+
+.pad{
+  height: 75.83px;
+}
 @media (min-width: 1024px){
   *{font-size: 16px;}
   .text-form{
@@ -51,7 +55,7 @@
   } 
 }
 
-@media (min-width: 1600px){
+@media (min-width: 160 0px){
   *{font-size: 16px;}
   .text-form{
   width: 60vw;
