@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/photo.css">
     
     
     <title>ToSlide</title>
@@ -16,27 +16,19 @@
  <body>
     <div class="container-md"> 
       <div class="d-grid gap-3 justify-content-center mt-3">
-        <div class="title d-flex justify-content-center mt-4">
-          <img src="toslide_logo.png" class="me-2" width="80px" height="30px">
-          청중 질의 응답 모드</div>
-        <div class="btn-group d-flex justify-content-end">
-          <button class="my-btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            학번 이름
-          </button>
-          <ul class="dropdown-menu">
-            ...
+        <div class="preview_box">
+          <div id="preview"></div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="my-keyword" placeholder="enter keyword" >
+          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" id="dropdown1">Keyword1</a></li>
+            <li><a class="dropdown-item" id="dropdown2">Keyword2</a></li>
+            <li><a class="dropdown-item" id="dropdown3">keyword3</a></li>
           </ul>
-        </div>
-        <div class="mb-3">
-          <div class="preview_box">
-            <div id="preview"></div>
-          </div>
-        </div>
-        <div class="d-grid gap-2">
-          <button class="btn-send" type="button"><img src="send.png" width="23px">보내기</button>
       </div>
-
-    
+        
     </div>
     
 

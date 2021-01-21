@@ -2,7 +2,6 @@ const button = document.querySelector('ul');
 const input = document.getElementsByClassName('form-control');
 
 button.addEventListener('click', event => {
-  console.log(event.target.innerHTML);
   document.getElementById("my-keyword").value = event.target.innerHTML;
 });
 

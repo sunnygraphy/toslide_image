@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/message.css">
     
     
     <title>ToSlide</title>
@@ -14,27 +14,60 @@
   </head>
   
  <body>
-    <div class="container-md"> 
-      <div class="d-grid gap-3 justify-content-center mt-3">
-        <div class="preview_box">
-          <div id="preview"></div>
+    <div class="container-md">
+        
+      <div class="d-grid gap-3 justify-content-center">
+        <div class="title d-flex justify-content-center mt-4">
+          <img src="./src/image/toslide_logo.png" class="me-2" width="80px" height="30px">
+          청중 질의 응답 모드</div>
+        <div class="d-flex justify-content-end">
+          
+            <select class="form-select-sm" id="inputGroupSelect03">
+              <option selected>B811064 박선호</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
         </div>
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" id="my-keyword" placeholder="enter keyword" >
-          <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" id="dropdown1">Keyword1</a></li>
-            <li><a class="dropdown-item" id="dropdown2">Keyword2</a></li>
-            <li><a class="dropdown-item" id="dropdown3">keyword3</a></li>
-          </ul>
+        <div class="mb-3">
+          <textarea class="form-control" type="text" id="exampleFormControlTextarea1" placeholder="질문/답변을 입력하세요" style="border: 2px solid #3F3FEA; height: 45vh;"></textarea>
+        </div>
+          <div class="d-grid gap-2">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="my-keyword" placeholder="enter keyword" >
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" id="dropdown1">Keyword1</a></li>
+                <li><a class="dropdown-item" id="dropdown2">Keyword2</a></li>
+                <li><a class="dropdown-item" id="dropdown3">keyword3</a></li>
+              </ul>
+          </div>
+            <button class="btn-send" type="button"><img src="./src/image/send.png" width="23px">보내기</button>
+        </div>
+        <div class="d-flex justify-content-center mt-4">
+          <button class="my-btn my-btn-color me-2 py-2 px-4" type="button" onclick="movePagePhoto();">
+            <img src="./src/image/file_image.png" class="pb-1" width="23px"><br>사진 보내기 
+          </button>
+          <button class="my-btn my-btn-color me-2 py-2 px-4" type="button"onclick="movePageWrite();"><img src="./src/image/pen.png" class="pb-1" width="22px"><br>메세지 작성</button>
+          <button class="my-btn my-btn-color py-2 px-4" type="button" onClick="movePageMessage();"><img src="./src/image/message.png" class="pb-1" width="28px"><br>메세지 보기</button>
       </div>
+      </div>
+    </div>
+        
+        
+        
+       
+       
         
     </div>
     
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-   <script src="./src/preview.js"></script>
+    <script src="./src/message.js"></script>
+      
+      
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
