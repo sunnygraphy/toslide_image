@@ -1,3 +1,11 @@
+const button = document.querySelector('ul');
+const input = document.getElementsByClassName('form-control');
+
+button.addEventListener('click', event => {
+  console.log(event.target.innerHTML);
+  document.getElementById("my-keyword").value = event.target.innerHTML;
+});
+
 function movePagePhoto(){
     if(window.innerWidth>1366){
       location.href = "https://prefer2.github.io/toslide_image/index_ko.html";
