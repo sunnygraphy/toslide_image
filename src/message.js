@@ -6,12 +6,7 @@ button.addEventListener('click', event => {
 });
 
 function movePagePhoto(){
-    if(window.innerWidth>1366){
-      location.href = "https://prefer2.github.io/toslide_image/photo_ko.html";
-    }   
-    else{
-      location.href = "https://prefer2.github.io/toslide_image/mobile_ko.html";
-    }
+    location.href = "https://prefer2.github.io/toslide_image/photo_ko.html";
   }
 
   function movePageWrite(){

@@ -58,7 +58,7 @@
   } 
 }
 
-@media (min-width: 160 0px){
+@media (min-width: 1600px){
   *{font-size: 16px;}
   .title{
     font-size: 20px;
